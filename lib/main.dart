@@ -25,7 +25,7 @@ class MyHomePage extends StatelessWidget {
   final _transactions = [
     Transaction(
       id: 't1',
-      title: 'Novo tenis de corrida',
+      title: 'Novo tênis de corrida',
       value: 300.21,
       date: DateTime.now(),
     ),
@@ -37,7 +37,7 @@ class MyHomePage extends StatelessWidget {
     ),
     Transaction(
       id: 't3',
-      title: 'Placa de video',
+      title: 'Placa de vídeo',
       value: 2300.21,
       date: DateTime.now(),
     ),
@@ -55,7 +55,7 @@ class MyHomePage extends StatelessWidget {
           Container(
             child: Card(
               color: Colors.blue,
-              child: Text('Grafico'),
+              child: Text('Gráfico'),
               elevation: 5,
             ),
           ),
